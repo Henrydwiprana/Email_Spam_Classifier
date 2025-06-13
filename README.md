@@ -1,1 +1,2 @@
-# Email_Spam_Classifier
+# 📬 Spam Email Classifier using Logistic Regression
+
