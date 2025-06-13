@@ -3,9 +3,9 @@
 import joblib
 
 # Load model dan preprocessing
-model = joblib.load('spam_model.pkl')
-tfidf = joblib.load('tfidf_vectorizer.pkl')
-le = joblib.load('label_encoder.pkl')
+model = joblib.load('models\spam_model.pkl')
+tfidf = joblib.load(r'models\tfidf_vectorizer.pkl')
+le = joblib.load('models\label_encoder.pkl')
 
 # Fungsi untuk memprediksi
 def predict_message(msg):
